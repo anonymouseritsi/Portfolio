@@ -353,7 +353,7 @@ footer {
     }
 
     .section-container {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         text-align: center;
         justify-content: center;
