@@ -181,16 +181,19 @@ section {
     margin: 40px 0;
     color: white;
 }
-.works-pic {
+
+.works-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 5rem;
-    text-align: center;
+    padding: 20px;
+    background: rgba(0, 7, 45, 1);
+    gap: 50px; 
 }
-.works-pic img{
-    width: 100%}
-. .works-container a img {
-    width: 50px; 
-    height: 50px;
+
+.works-container a img {
+    width: 500px; 
+    height: 300px;
     border: 2px solid white;
     border-radius: 10px;
     transition: transform 0.3s ease; 
@@ -199,7 +202,6 @@ section {
 .works-container a img:hover {
     transform: scale(1.1); 
 }
-
 .contacts-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
