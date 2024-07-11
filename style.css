@@ -364,7 +364,7 @@ footer {
         width: 100%;
     }
 
-    .works-container a img {
+    .works-container img {
         width: 200px;
         height: 150px;
         text-align: center;
@@ -394,11 +394,11 @@ footer {
 
     #about h1,
     #about h2 {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     #about p {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     footer p {
