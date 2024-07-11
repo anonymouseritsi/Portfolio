@@ -112,6 +112,11 @@ nav .logo {
 }
 
 /* Section styling */
+
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
 .section-container {
     display: flex;
     justify-content: space-between;
@@ -120,6 +125,7 @@ nav .logo {
     padding: 20px;
     background: rgba(0, 7, 45, 1);
 }
+
 
 .section-content-left {
     width: 40%;
@@ -328,10 +334,7 @@ footer {
         min-height: auto;
         padding: 0;
     }
-    section{
-        min-height: 100vh;
-        padding: 10rem 12% 10rem;
-    }
+   
 
     .user-img {
         width: 100%;
