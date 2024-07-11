@@ -247,7 +247,7 @@ footer {
     background: linear-gradient(rgba(250, 226, 12, 1), rgba(250, 226, 12, 1));
     background-repeat: no-repeat;
     -webkit-text-fill-color: transparent;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     background-size: 0%;
 }
 
