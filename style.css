@@ -288,9 +288,6 @@ footer {
 /* Responsive styling */
 @media only screen and (max-width: 600px) {
 
-    
-
-    
     nav ul {
         position: absolute;
         width: 100%;
@@ -330,6 +327,10 @@ footer {
     .header {
         min-height: auto;
         padding: 0;
+    }
+    section{
+        min-height: 100vh;
+        padding: 10rem 12% 10rem;
     }
 
     .user-img {
