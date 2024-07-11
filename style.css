@@ -372,13 +372,13 @@ footer {
     }
 
     .contacts-info img {
-        width: 100px;
-        height: 80px;
+        width: 200px;
+        height: 100px;
         text-align: center;
         justify-content: center;
     }
     .contacts-info span {
-        font-size: 20px;
+        font-size: 30px;
         text-align: center;
         justify-content: center;
     }
@@ -394,7 +394,7 @@ footer {
 
     #about h1,
     #about h2 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     #about p {
