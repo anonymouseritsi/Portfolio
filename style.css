@@ -252,11 +252,11 @@ footer {
 }
 
 .header h1 span:first-child {
-    animation: textcolor1 4s linear infinite alternate;
+    animation: textcolor1 4s linear (rgba(0, 7, 45, 1),rgba(0, 7, 45, 1));
 }
 
 .header h1 span:last-child {
-    animation: textcolor2 4s linear infinite alternate;
+    animation: textcolor2 4s linear (rgba(0, 7, 45, 1),rgba(0, 7, 45, 1));
 }
 
 @keyframes textcolor1 {
