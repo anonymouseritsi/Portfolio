@@ -288,9 +288,9 @@ footer {
 /* Responsive styling */
 @media only screen and (max-width: 600px) {
 
-    body{
-        margin-left: 30px;
-    }
+    
+
+    
     nav ul {
         position: absolute;
         width: 100%;
@@ -345,11 +345,15 @@ footer {
         padding: 0 10%;
         z-index: 2;
         padding-bottom: 40px;
+        text-align: center;
+        justify-content: center;
     }
 
     .section-container {
         flex-direction: column;
         height: auto;
+        text-align: center;
+        justify-content: center;
     }
 
     .section-content-left,
@@ -360,14 +364,20 @@ footer {
     .works-container a img {
         width: 200px;
         height: 150px;
+        text-align: center;
+        justify-content: center;
     }
 
     .contacts-info img {
         width: 100px;
         height: 80px;
+        text-align: center;
+        justify-content: center;
     }
     .contacts-info span {
         font-size: 20px;
+        text-align: center;
+        justify-content: center;
     }
     
 
