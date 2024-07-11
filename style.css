@@ -181,15 +181,14 @@ section {
     margin: 40px 0;
     color: white;
 }
-
-.works-container {
-    display: flex;
-    justify-content: center;
+.works-pic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    padding: 20px;
-    background: rgba(0, 7, 45, 1);
-    gap: 50px; 
+    gap: 5rem;
+    text-align: center;
 }
+
 
 .works-container a img {
     width: 500px; 
@@ -208,6 +207,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 5rem;
+    text-align: center;
 }
 
 .contacts-info .images {
@@ -317,7 +317,7 @@ footer {
 
     nav ul li {
         margin: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .menu-icon {
@@ -339,6 +339,7 @@ footer {
         width: 100%;
         right: auto;
         position: relative;
+        margin-top: 100px;
     }
 
     .header-content {
@@ -363,21 +364,25 @@ footer {
         width: 100%;
     }
 
-    .works-container img {
-        width: 300px;
+    .works-pic {
+        grid-template-columns: 1fr;
+    }
+
+    .works-container a img {
+        width: 200px;
         height: 150px;
         text-align: center;
         justify-content: center;
     }
 
     .contacts-info img {
-        width: 200px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
         text-align: center;
         justify-content: center;
     }
     .contacts-info span {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         justify-content: center;
     }
@@ -403,4 +408,4 @@ footer {
     footer p {
         font-size: 1em;
     }
-}
+    }
