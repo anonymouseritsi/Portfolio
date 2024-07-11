@@ -191,8 +191,8 @@ section {
 
 
 .works-container a img {
-    width: 500px; 
-    height: 300px;
+    width: 200px; 
+    height: 100px;
     border: 2px solid white;
     border-radius: 10px;
     transition: transform 0.3s ease; 
@@ -369,20 +369,20 @@ footer {
     }
 
     .works-container a img {
-        width: 200px;
-        height: 150px;
+        width: 5px;
+        height: 50px;
         text-align: center;
         justify-content: center;
     }
 
     .contacts-info img {
-        width: 100px;
+        width: 50px;
         height: 80px;
         text-align: center;
         justify-content: center;
     }
     .contacts-info span {
-        font-size: 20px;
+        font-size: 10px;
         text-align: center;
         justify-content: center;
     }
