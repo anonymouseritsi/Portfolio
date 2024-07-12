@@ -196,9 +196,9 @@ section {
     gap: 5rem;
 }
 
-.works-container a img {
-    width: 500px; 
-    height: 300px;
+.works-container img {
+    width: 200px; 
+    height: 150px;
     border: 2px solid white;
     border-radius: 10px;
     transition: transform 0.3s ease; 
