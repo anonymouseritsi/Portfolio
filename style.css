@@ -308,6 +308,7 @@ footer {
         background: rgba(0, 7, 45, 1);
         color: white;
         left: 0;
+        right:10px;
         top: 100%;
         text-align: center;
         max-height: 0;
