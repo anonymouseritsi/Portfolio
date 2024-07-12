@@ -197,8 +197,8 @@ section {
 }
 
 .works-container a img {
-    width: 300px; 
-    height: 150px;
+    width: 500px; 
+    height: 300px;
     border: 2px solid white;
     border-radius: 10px;
     transition: transform 0.3s ease; 
